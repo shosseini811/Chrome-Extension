@@ -1,6 +1,17 @@
 # Job Application Auto-Filler Chrome Extension
 
-A Chrome extension that automatically fills out job application forms with your resume data, handles common application questions, and uploads your resume.
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/7ae013bb-8c60-460c-a7d4-7674f4593f72" width="400" />
+</div>
+
+> A Chrome extension that automatically fills out job application forms with your resume data, handles common application questions, and uploads your resume.
+
+## Quick Demo
+The video above demonstrates:
+- Auto-fills basic information
+- Handles common application questions
+- Uploads resume automatically
+- Works with one click
 
 ## Features
 
