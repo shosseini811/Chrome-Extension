@@ -24,10 +24,15 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
+      const resumeDataWithPath = {
+        ...resumeData,
+        resumePath: chrome.runtime.getURL('assets/resume.pdf')
+      };
+
       // Send message to content script
       chrome.tabs.sendMessage(tab.id, {
         action: "fillForm",
-        data: resumeData
+        data: resumeDataWithPath
       }, (response) => {
         if (chrome.runtime.lastError) {
           console.error('Error sending message:', chrome.runtime.lastError);
